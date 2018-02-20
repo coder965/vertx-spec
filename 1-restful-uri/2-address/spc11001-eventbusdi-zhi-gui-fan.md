@@ -44,8 +44,8 @@ EVENT://ADDR/POST/O/AUTHORIZE
 | /api/existing/company（GET） | existing | EVENT://ADDR/EXISTING/COMPANY/GET |
 | /api/company/:field/:value（GET） | uniqueByField | EVENT://ADDR/GET/COMPANY/BY/{FIELD} |
 | /api/companies/:field/:value（GET） | listByField | EVENT://ADDR/GET/COMPANIES/BY/{FIELD} |
-| /api/in/companies/:field | listIn | EVENT://ADDR/POST/COMPANIES/IN/{FIELD} |
-| /api/in/companies/:field/raw | listInRaw | EVENT://ADDR/POST/COMPANIES/IN/{FIELD}/RAW |
+| /api/in/companies/:field | listInField | EVENT://ADDR/POST/COMPANIES/IN/{FIELD} |
+| /api/in/companies/:field/raw | listInFieldRaw | EVENT://ADDR/POST/COMPANIES/IN/{FIELD}/RAW |
 | /api/and/companies | uniqueAnd | EVENT://ADDR/POST/COMPANIES/AND |
 | /api/or/companies | uniqueOr | EVENT://ADDR/POST/COMPANIES/OR |
 | /api/and/company | listAnd | EVENT://ADDR/POST/COMPANY/AND |
