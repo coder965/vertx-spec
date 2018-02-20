@@ -50,5 +50,9 @@ EVENT://ADDR/POST/O/AUTHORIZE
 | /api/or/companies | uniqueOr | EVENT://ADDR/POST/COMPANIES/OR |
 | /api/and/company | listAnd | EVENT://ADDR/POST/COMPANY/AND |
 
+## 4. Summary
+
+以上是目前版本中需要使用到的各种基本命名规范
+
 
 
