@@ -108,6 +108,8 @@ Api -> ( Event Bus ) -> Worker
 | listIn{Field} | queryGroup\(String, Value...\) | Future&lt;JsonObject&gt; |
 | listAnd | readAnd\(JsonObject\) | Future&lt;JsonArray&gt; |
 | listAnd | readAnd\(Inquiry\) | Future&lt;JsonArray&gt; |
+| listAnd{Field} | readAnd{Field}\(String\) | Future&lt;JsonArray&gt; |
+| listAndQuery | readAndQuery\(String1, String2, ...\) | Future&lt;JsonArray&gt; |
 | listOr | readOr\(JsonObject\) | Future&lt;JsonArray&gt; |
 | listOr | readOr\(Inquiry\) | Future&lt;JsonArray&gt; |
 | uniqueAnd | readUnique\(JsonObject\) | Future&lt;JsonObject&gt; |
