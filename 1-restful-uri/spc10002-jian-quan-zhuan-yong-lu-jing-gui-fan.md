@@ -17,5 +17,9 @@
 | /registry | POST | JsonObject | 注册专用API |
 | /forget | POST | JsonObject | 找回密码专用API |
 
+### 1.2. 鉴权认证
+
+
+
 
 
