@@ -31,24 +31,24 @@ EVENT://ADDR/COMPANY/POST
 | URL（Http方法名） | Java方法名 | Addr地址值 |
 | :--- | :--- | :--- |
 | /api/company（POST） | post | EVENT://ADDR/COMPANY/POST |
-| /api/company/:id（GET） | get | EVENT://ADDR/GET/COMPANY |
-| /api/company/:id（PUT） | put | EVENT://ADDR/PUT/COMPANY |
-| /api/company/:id（DELETE） | delete | EVENT://ADDR/DELETE/COMPANY |
-| /api/companies（GET） | getAll | EVENT://ADDR/GET/COMPANIES |
-| /api/companies（POST） | batchPost | EVENT://ADDR/POST/COMPANIES |
-| /api/companies（PUT） | batchPut | EVENT://ADDR/PUT/COMPANIES |
-| /api/companies（DELETE） | batchDelete | EVENT://ADDR/DELETE/COMPANIES |
-| /api/search/companies（POST） | searchAdvanced | EVENT://ADDR/SEARCH/COMPANIES |
-| /api/search/companies（GET） | search | EVENT://ADDR/SEARCH/COMPANIES/GET |
-| /api/existing/company（POST） | existingAdvanced | EVENT://ADDR/EXISTING/COMPANY |
-| /api/existing/company（GET） | existing | EVENT://ADDR/EXISTING/COMPANY/GET |
-| /api/company/:field/:value（GET） | uniqueByField | EVENT://ADDR/GET/COMPANY/BY/{FIELD} |
-| /api/companies/:field/:value（GET） | listByField | EVENT://ADDR/GET/COMPANIES/BY/{FIELD} |
-| /api/in/companies/:field | listInField | EVENT://ADDR/POST/COMPANIES/IN/{FIELD} |
-| /api/in/companies/:field/raw | listInFieldRaw | EVENT://ADDR/POST/COMPANIES/IN/{FIELD}/RAW |
-| /api/and/companies | listAnd | EVENT://ADDR/POST/COMPANIES/AND |
-| /api/or/companies | listOr | EVENT://ADDR/POST/COMPANIES/OR |
-| /api/and/company | uniqueAnd | EVENT://ADDR/POST/COMPANY/AND |
+| /api/company/:id（GET） | get | EVENT://ADDR/COMPANY/GET |
+| /api/company/:id（PUT） | put | EVENT://ADDR/COMPANY/PUT |
+| /api/company/:id（DELETE） | delete | EVENT://ADDR/COMPANY/DELETE |
+| /api/companies（GET） | getAll | EVENT://ADDR/COMPANIES/GET |
+| /api/companies（POST） | batchPost | EVENT://ADDR/COMPANIES/POST |
+| /api/companies（PUT） | batchPut | EVENT://ADDR/COMPANIES/PUT |
+| /api/companies（DELETE） | batchDelete | EVENT://ADDR/COMPANIES/DELETE |
+| /api/search/companies（POST） | searchAdvanced | EVENT://ADDR/COMPANIES/SEARCH |
+| /api/search/companies（GET） | search | EVENT://ADDR/COMPANIES/SEARCH/GET |
+| /api/existing/company（POST） | existingAdvanced | EVENT://ADDR/COMPANY/EXISTING |
+| /api/existing/company（GET） | existing | EVENT://ADDR/COMPANY/EXISTING/GET |
+| /api/company/:field/:value（GET） | uniqueByField | EVENT://ADDR/COMPANY/GET/BY/{FIELD} |
+| /api/companies/:field/:value（GET） | listByField | EVENT://ADDR/COMPANIES/GET/BY/{FIELD} |
+| /api/in/companies/:field | listInField | EVENT://ADDR/COMPANIES/POST/IN/{FIELD} |
+| /api/in/companies/:field/raw | listInFieldRaw | EVENT://ADDR/COMPANIES/POST/IN/{FIELD}/RAW |
+| /api/and/companies | listAnd | EVENT://ADDR/COMPANIES/POST/AND |
+| /api/or/companies | listOr | EVENT://ADDR/COMPANIES/POST/OR |
+| /api/and/company | uniqueAnd | EVENT://ADDR/COMPANY/POST/AND |
 
 ## 4. Summary
 
