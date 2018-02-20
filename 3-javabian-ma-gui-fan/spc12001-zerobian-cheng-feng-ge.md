@@ -79,9 +79,9 @@ Api -> ( Event Bus ) -> Worker
 
 ### 3.2. Stub/Service部分方法名
 
-
-
-## 4. 返回值处理
+| Worker方法 | Stub/Service方法 | Stub/Service返回值 |
+| :--- | :--- | :--- |
+|  |  |  |
 
 
 
