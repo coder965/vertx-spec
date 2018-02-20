@@ -111,5 +111,9 @@ Api -> ( Event Bus ) -> Worker
 | uniqueAnd | readUnique\(JsonObject\) | Future&lt;JsonObject&gt; |
 | uniqueAnd | readUnique\(Inquiry\) | Future&lt;JsonObject&gt; |
 
+## 4. Rpc处理
+
+
+
 
 
