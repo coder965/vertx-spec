@@ -65,8 +65,6 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 
 ### 2.2.CRUD专用API（写）
 
-本章节先介绍专用的写操作Api，主要针对添加、更新、删除：
-
 | 路径前缀 | Http方法 | 参数类型 | 该API说明 |
 | :--- | :--- | :--- | :--- |
 | /api/company | POST | JsonObject | 添加一个完整的company。 |
@@ -78,7 +76,16 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 
 ### 2.3.CRUD专用API（读）
 
-本章节用于介绍专用的读操作Api，主要针对读取：
+| 路径前缀 | Http方法 | 参数类型 | 该Api说明 |
+| :--- | :--- | :--- | :--- |
+| /api/search/companies | POST（Post查询） | JsonObject：核心四参数sorter, criteria, projection, pager。 | 用于处理搜索company专用Api，该Api支持：分页、排序、返回过滤、条件查询，返回值格式：{list:\[\],count:0} |
+| /api/existing/company | POST存在判断 | JsonObject：提供可解析的criteria格式字符串 | 判断当前company是否存在 |
+| /api/companies | GET | 无 | 读取所有的company列表，不带任何条件 |
+| /api/company/:id | GET | Path | 根据ID读取一个company |
+| /api/company/:field/:value | GET | Path | 根据field=value查询唯一的company，单字段查询，返回为JsonObject |
+| /api/companies/:field/:value | GET | Path | 根据company中的某个字段field读取该字段：field=value下的所有company，返回值为JsonArray，单字段查询 |
+
+### 2.4.JsonObject返回API（读）
 
 
 
