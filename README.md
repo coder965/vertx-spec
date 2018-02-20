@@ -15,10 +15,7 @@
 
 ## 2. Address地址规范
 
-* [SPC11001 - EventBus地址规范](/1-restful-uri/2-address/spc11001-eventbusdi-zhi-gui-fan.md)
-* [SPC11002 - 配置中心地址规范](/1-restful-uri/2-address/spc11001-pei-zhi-zhong-xin-di-zhi-gui-fan.md)（在注册发现服务中心由框架本身负责，自研发部分则由开发团队负责）
-* [SPC11003 - Mq消息队列地址规范](/1-restful-uri/2-address/spc10003-mqxiao-xi-dui-lie-di-zhi-gui-fan.md)
-* [SPC11004 - Rpc地址规范](/1-restful-uri/2-address/spc11004-rpcdi-zhi-gui-fan.md)
+* [SPC11001 - 地址规范](/1-restful-uri/2-address/spc11001-eventbusdi-zhi-gui-fan.md)
 
 
 
