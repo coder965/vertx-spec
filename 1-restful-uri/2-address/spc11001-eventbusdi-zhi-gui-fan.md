@@ -30,7 +30,7 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 | URL（Http方法名） | Java方法名 | Addr地址值 |
 | :--- | :--- | :--- |
-| /api/company（POST） | post | EVENT://ADDR/POST/COMPANY |
+| /api/company（POST） | post | EVENT://ADDR/COMPANY/POST |
 | /api/company/:id（GET） | get | EVENT://ADDR/GET/COMPANY |
 | /api/company/:id（PUT） | put | EVENT://ADDR/PUT/COMPANY |
 | /api/company/:id（DELETE） | delete | EVENT://ADDR/DELETE/COMPANY |
