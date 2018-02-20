@@ -24,7 +24,7 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 对于服务端的专用地址规范，则使用特殊前缀`EVENT://ADDR/OUT`，请求本身由服务端发送结果。
 
-## 3. 代码基本命名
+## 3. 代码基本命名参考
 
 > 本示例以前端地址为例，结合Restful Uri规范处理，模型名称同样使用company
 
