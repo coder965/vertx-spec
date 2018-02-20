@@ -60,9 +60,27 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 
 上述两个Api会出现：`Duplicated`模式，即当前端真正发送请求：`/api/crud/room/by/xxx`过后，后端和前端请求匹配上的路径信息会有两个路径信息，所以路径参数模式不可按照这种方式设计。
 
+* 单数操作：company
+* 复数操作：companies
+
 ### 2.2.CRUD专用API（写）
 
 本章节先介绍专用的写操作Api，主要针对添加、更新、删除：
+
+| 路径前缀 | Http方法 | 参数类型 | 该API说明 |
+| :--- | :--- | :--- | :--- |
+| /api/company | POST | JsonObject | 添加一个完整的company。 |
+| /api/company/:id | PUT | Path, JsonObject | 更新一个company |
+| /api/company/:id | DELETE | Path | 删除一个company |
+| /api/companies | POST | JsonArray, E = JsonObject | 批量添加company |
+| /api/companies | PUT | JsonArray, E = JsonObject | 批量更新company |
+| /api/companies | DELETE | JsonArray, E = ID List | 批量删除company |
+
+### 2.3.CRUD专用API（读）
+
+本章节用于介绍专用的读操作Api，主要针对读取：
+
+
 
 
 
