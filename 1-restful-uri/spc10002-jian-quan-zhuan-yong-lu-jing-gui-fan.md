@@ -11,7 +11,7 @@
 | 路径前缀 | Http方法 | 参数类型 | API说明 |
 | :--- | :--- | :--- | :--- |
 | /login | POST | JsonObject | 登陆专用API |
-| /login/image | GET | Query参数（用户名） | 验证码专用API，以Stream流的模式输出，可构造成验证码图片。 |
+| /verify/image | GET | Query参数（用户名） | 验证码专用API，以Stream流的模式输出，可构造成验证码图片。 |
 | /login/mobile | GET | Query参数（手机号） | 手机验证码专用API，发送手机验证码信息，在后端处理。 |
 | /login/email | GET | Query参数（Email） | Email邮箱专用API，发送Email验证链接，在后端处理。 |
 
