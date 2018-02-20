@@ -18,6 +18,7 @@
 | /forget | POST | JsonObject | 找回密码专用API |
 | /o/authorize | POST | JsonObject | OAuth专用读取临时授权码接口 |
 | /o/token | POST | JsonObject | OAuth专用使用授权码交换Token令牌接口 |
+| /o/refresh | POST | JsonObject | OAuth专用刷新授权码交换刷新令牌专用接口 |
 
 ### 1.2. 鉴权认证
 
