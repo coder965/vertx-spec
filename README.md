@@ -16,6 +16,7 @@
 ## 2. Address地址规范
 
 * [SPC11001 - 地址规范](/1-restful-uri/2-address/spc11001-eventbusdi-zhi-gui-fan.md)
+* [SPC11002 - 配置路径规范](/1-restful-uri/2-address/spc11002-pei-zhi-lu-jing-gui-fan.md)
 
 ## 3. Java代码规范
 
