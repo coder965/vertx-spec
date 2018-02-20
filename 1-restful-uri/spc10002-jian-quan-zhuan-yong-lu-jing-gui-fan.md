@@ -25,6 +25,7 @@
 | 路径前缀 | Http方法 | 参数类型 | API说明 |
 | :--- | :--- | :--- | :--- |
 | /api/profile | GET | Path | 读取当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
+| /api/profile | POST | JsonObject | 更新当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
 
 
 
