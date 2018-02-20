@@ -87,8 +87,29 @@ Api -> ( Event Bus ) -> Worker
 | get | read\(ID\) | Future&lt;JsonObject&gt; |
 | put | update\(ID, JsonObject\) | Future&lt;JsonObject&gt; |
 | delete | delete\(ID\) | Future&lt;Boolean&gt; |
-| getAll | read（可重载） | Future&lt;JsonArray&gt; |
-|  |  |  |
+| getAll | read\(\) | Future&lt;JsonArray&gt; |
+| batchPost | create\(JsonObject...\) | Future&lt;JsonArray&gt; |
+| batchPost | create\(JsonArray\) | Future&lt;JsonArray&gt; |
+| batchPut | update\(JsonObject...\) | Future&lt;JsonArray&gt; |
+| batchPut | update\(JsonArray\) | Future&lt;JsonArray&gt; |
+| batchDelete | delete\(ID...\) | Future&lt;Boolean&gt; |
+| batchDelete | delete\(JsonObject...\) | Future&lt;Boolean&gt; |
+| searchAdvanced | search\(Inquiry\) | Future&lt;JsonObject&gt; |
+| search | search\(JsonObject\) | Future&lt;JsonArray&gt; |
+| existingAdvanced | existing\(Inquiry\) | Future&lt;Boolean&gt; |
+| existing | existing\(JsonObject\) | Future&lt;Boolean&gt; |
+| uniqueBy{Field} | findBy{Field}\(Value\) | Future&lt;JsonObject&gt; |
+| uniqueBy{Field} | findBy\(String, Value\) | Future&lt;JsonObject&gt; |
+| listBy{Field} | queryBy{Field}\(Value\) | Future&lt;JsonArray&gt; |
+| listBy{Field} | queryBy\(String, Value\) | Future&lt;JsonArray&gt; |
+| listIn{Field}Raw | queryBy\(String, Value...\) | Future&lt;JsonArray&gt; |
+| listIn{Field} | queryGroup\(String, Value...\) | Future&lt;JsonObject&gt; |
+| listAnd | readAnd\(JsonObject\) | Future&lt;JsonArray&gt; |
+| listAnd | readAnd\(Inquiry\) | Future&lt;JsonArray&gt; |
+| listOr | readOr\(JsonObject\) | Future&lt;JsonArray&gt; |
+| listOr | readOr\(Inquiry\) | Future&lt;JsonArray&gt; |
+| uniqueAnd | readUnique\(JsonObject\) | Future&lt;JsonObject&gt; |
+| uniqueAnd | readUnique\(Inquiry\) | Future&lt;JsonObject&gt; |
 
 
 
