@@ -17,7 +17,7 @@ URI: /company
 Method: POST
 
 对应的EventBus地址为：
-EVENT://ADDR/POST/O/AUTHORIZE
+EVENT://ADDR/COMPANY/POST
 ```
 
 ## 2. 特殊地址
