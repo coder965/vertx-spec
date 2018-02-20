@@ -26,7 +26,7 @@
 | :--- | :--- | :--- | :--- |
 | /api/profile | GET | Path | 读取当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
 | /api/profile | POST | JsonObject | 更新当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
-| /api/password | POST | JsonObject | 更改当前登录账号密码专用API信息，用户账号在Authorization中提供Token身份令牌处理 |
+| /api/password | PUT | JsonObject | 更改当前登录账号密码专用API信息，用户账号在Authorization中提供Token身份令牌处理 |
 | /api/reset | GET | 无 | 后端发送Reset重置密码连接专用地址 |
 | /api/user/:id/lock | GET | Path | 锁账号（普通管理员） |
 | /api/user/:id/active | GET | Path | 激活账号（系统自动） |
