@@ -10,10 +10,10 @@
 
 ## 1. Crud地址转换
 
-基本地址规范使用：`METHOD + URI`的全大写模式，如：
+基本地址规范使用：`URI + METHOD`的全大写模式，如：
 
 ```
-URI: /o/authorize
+URI: /company
 Method: POST
 
 对应的EventBus地址为：
