@@ -83,11 +83,12 @@ Api -> ( Event Bus ) -> Worker
 
 | Worker方法 | Stub/Service方法 | Stub/Service返回值 |
 | :--- | :--- | :--- |
-| post | create | Future&lt;JsonObject&gt; |
-| get | read | Future&lt;JsonObject&gt; |
-| put | update | Future&lt;JsonObject&gt; |
-| delete | delete | Future&lt;Boolean&gt; |
+| post | create\(JsonObject\) | Future&lt;JsonObject&gt; |
+| get | read\(ID\) | Future&lt;JsonObject&gt; |
+| put | update\(ID, JsonObject\) | Future&lt;JsonObject&gt; |
+| delete | delete\(ID\) | Future&lt;Boolean&gt; |
 | getAll | read（可重载） | Future&lt;JsonArray&gt; |
+|  |  |  |
 
 
 
