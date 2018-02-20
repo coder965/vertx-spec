@@ -20,5 +20,7 @@ Method: POST
 EVENT://ADDR/POST/O/AUTHORIZE
 ```
 
+## 2. 特殊地址
+
 
 
