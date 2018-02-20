@@ -77,5 +77,9 @@ Api -> ( Event Bus ) -> Worker
 | listOr | AS\_OR | EVENT://ADDR/AS/POST/OR | listOr |
 | uniqueAnd | A\_AND | EVENT://ADDR/A/POST/AND | uniqueAnd |
 
+### 3.2. Stub/Service部分方法名
+
+
+
 
 
