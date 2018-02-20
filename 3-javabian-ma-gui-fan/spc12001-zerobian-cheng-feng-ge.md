@@ -113,7 +113,5 @@ Api -> ( Event Bus ) -> Worker
 
 ## 4. Rpc处理
 
-
-
-
+Rpc部分的方法名以及处理名称同上。
 
