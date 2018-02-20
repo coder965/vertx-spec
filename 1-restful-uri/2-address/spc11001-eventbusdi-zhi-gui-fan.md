@@ -47,6 +47,8 @@ EVENT://ADDR/COMPANY/POST
 | /api/in/companies/:field | listInField | EVENT://ADDR/COMPANIES/POST/IN/{FIELD} |
 | /api/in/companies/:field/raw | listInFieldRaw | EVENT://ADDR/COMPANIES/POST/IN/{FIELD}/RAW |
 | /api/and/companies | listAnd | EVENT://ADDR/COMPANIES/POST/AND |
+| /api/and/companies/:field/:value | listAndField | EVENT://ADDR/COMPANIES/GET/AND/{FIELD} |
+| /api/and/companies/query/:field1/:field2 | listAndQuery | EVENT://ADDR/COMPANIES/GET/AND/{FIELD}/{FIELD} |
 | /api/or/companies | listOr | EVENT://ADDR/COMPANIES/POST/OR |
 | /api/and/company | uniqueAnd | EVENT://ADDR/COMPANY/POST/AND |
 
