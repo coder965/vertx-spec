@@ -62,6 +62,9 @@ Api -> ( Event Bus ) -> Worker
 | put | A\_PUT | EVENT://ADDR/A/PUT | put |
 | delete | A\_DELETE | EVENT://ADDR/A/DELETE | delete |
 | getAll | AS\_GET | EVENT://ADDR/AS/GET | getAll |
+| batchPost | AS\_POST | EVENT://ADDR/AS/POST | batchPost |
+| batchPut | AS\_PUT | EVENT://ADDR/AS/PUT | batchPut |
+| batchDelete | AS\_DELETE | EVENT://ADDR/AS/DELETE | batchDelete |
 
 
 
