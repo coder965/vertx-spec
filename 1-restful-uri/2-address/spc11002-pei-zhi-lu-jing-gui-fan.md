@@ -15,7 +15,7 @@
 
 ```shell
 /zero                                    # Etcd对于Zero专用配置路径
-    /{app1}                              # Etcd对于Application专用配置路径
+    /{app1}                              # Etcd对于Application1专用配置路径
         /endpoint                        # Rs服务根路径
             /services                    # Rs服务状态
                 {name}:{ip}:{port}       # Rs描述服务状态：RUNNING、STOPPED
@@ -26,7 +26,9 @@
                 {name}:{ip}:{port}       # Ipc描述服务状态：RUNNING、STOPPED
             /routes                      # Ipc服务路由
                 {name}:{ip}:{port}       # Ipc服务路由信息，每个值为JsonArray
-    /{app2}
+    /{app2}                              # Etcd对于Application2专用配置路径
+        ......                            
+
 ```
 
 
