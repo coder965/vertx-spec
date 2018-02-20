@@ -2,8 +2,13 @@
 
 该规范用于处理地址专用规范，地址主要涉及以下几个部分内容：
 
-* EventBus地址——专用命名：`EVENT://QUEUE`前缀
-* Rpc地址——专用命名：`IPC://QUEUE`前缀
-* 
+* EventBus地址——专用命名：`EVENT://ADDR`前缀
+* Rpc地址——专用命名：`IPC://ADDR`前缀
+* Mq消息队列——专用命名：`MQ://ADDR`前缀
+
+本文主要介绍EventBus专用地址规范
+
+
+
 
 
