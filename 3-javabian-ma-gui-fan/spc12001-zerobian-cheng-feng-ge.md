@@ -33,7 +33,7 @@ Api -> ( Event Bus ) -> Worker
 | com.htl.cv | Interface - Addr | 用于管理Event Bus地址接口常量 |
 | com.htl.cv | 无 | 常量文件专用包 |
 | com.htl.exception | 无 | 异常专用包 |
-| com.htl.ipc | XXXJet | （Rpc Server）服务内部通讯专用包，ipc为Internal Rpc的简称，建议该包下的文件数量不宜太多。 |
+| com.htl.ipc | XXXIvy | （Rpc Server）服务内部通讯专用包，ipc为Internal Rpc的简称，建议该包下的文件数量不宜太多。 |
 | com.htl.domain | 无 | DTO专用包（如果使用Jooq、Hibernate、Mybatis则包含了Dao层类） |
 | com.htl.micro.{name} | 无 | 微服务专用包 |
 
