@@ -69,8 +69,8 @@ Api -> ( Event Bus ) -> Worker
 | search | AS\_SEARCH | EVENT://ADDR/AS/SEARCH/GET | search |
 | existingAdvanced | A\_EXISTING\_ADVANCED | EVENT://ADDR/A/EXISTING | existingAdvanced |
 | existing | A\_EXISTING | EVENT://ADDR/A/EXISTING/GET | existing |
-| uniqueBy{Field} | A\_GET\_BY\_{FIELD} | EVENT://ADDR/A/GET/BY/{FIELD} | uniqueBy{Field} |
-| listBy{Field} | AS\_GET\_BY\_{FIELD} | EVENT://ADDR/AS/GET/BY/{FIELD} | listBy{Field} |
+| uniqueBy{Field} | A\_BY\_{FIELD} | EVENT://ADDR/A/GET/BY/{FIELD} | uniqueBy{Field} |
+| listBy{Field} | AS\_BY\_{FIELD} | EVENT://ADDR/AS/GET/BY/{FIELD} | listBy{Field} |
 | listIn{Field} | AS\_IN\_{FIELD} | EVENT://ADDR/AS/POST/IN/{FIELD} | listIn{Field} |
 | listIn{Field}Raw | AS\_IN\_{FIELD}\_RAW | EVENT://ADDR/AS/POST/IN/{FIELD}/RAW | listIn{Field}Raw |
 | listAnd | AS\_AND | EVENT://ADDR/AS/POST/AND | listAnd |
