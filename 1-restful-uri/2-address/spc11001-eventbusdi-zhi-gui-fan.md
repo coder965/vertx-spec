@@ -42,6 +42,7 @@ EVENT://ADDR/POST/O/AUTHORIZE
 | /api/search/companies（GET） | searchGet | EVENT://ADDR/SEARCH/COMPANIES/GET |
 | /api/existing/company（POST） | existing | EVENT://ADDR/EXISTING/COMPANY |
 | /api/existing/company（GET） | existingGet | EVENT://ADDR/EXISTING/COMPANY/GET |
+|  |  |  |
 
 
 
