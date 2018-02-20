@@ -46,13 +46,11 @@ EVENT://ADDR/POST/O/AUTHORIZE
 | /api/companies/:field/:value（GET） | listByField | EVENT://ADDR/GET/COMPANIES/BY/{FIELD} |
 | /api/in/companies/:field | listInField | EVENT://ADDR/POST/COMPANIES/IN/{FIELD} |
 | /api/in/companies/:field/raw | listInFieldRaw | EVENT://ADDR/POST/COMPANIES/IN/{FIELD}/RAW |
-| /api/and/companies | uniqueAnd | EVENT://ADDR/POST/COMPANIES/AND |
-| /api/or/companies | uniqueOr | EVENT://ADDR/POST/COMPANIES/OR |
-| /api/and/company | listAnd | EVENT://ADDR/POST/COMPANY/AND |
+| /api/and/companies | listAnd | EVENT://ADDR/POST/COMPANIES/AND |
+| /api/or/companies | listOr | EVENT://ADDR/POST/COMPANIES/OR |
+| /api/and/company | uniqueAnd | EVENT://ADDR/POST/COMPANY/AND |
 
 ## 4. Summary
 
 以上是目前版本中需要使用到的各种基本命名规范
-
-
 
