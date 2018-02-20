@@ -92,5 +92,9 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 | /api/or/companies | POST复杂查询 | JsonObject：提供可解析的criteria格式字符串，连接多条处理：OR | 从系统中读取满足条件的所有company列表，返回JsonArray |
 | /api/and/company | POST复杂查询 | JsonObject：提供可解析的criteria格式字符串，连接多条处理：AND | 从系统中读取满足条件的单个company，返回JsonObject |
 
+## 3. Summary
+
+本章节主要用于定制Restful常用的添加、删除、查询修改专用的API基本路径规范，并根据相关内容进行统一处理。
+
 
 
