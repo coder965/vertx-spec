@@ -28,5 +28,10 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 > 本示例以前端地址为例，结合Restful Uri规范处理，模型名称同样使用company
 
+| URL（Http方法名） | Java方法名 | Addr地址值 |
+| :--- | :--- | :--- |
+| /api/company（POST） | post | EVENT://ADDR/POST/COMPANY |
+|  |  |  |
+
 
 
