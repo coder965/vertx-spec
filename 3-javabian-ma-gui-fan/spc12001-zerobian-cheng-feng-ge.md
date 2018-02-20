@@ -79,7 +79,7 @@ Api -> ( Event Bus ) -> Worker
 
 ### 3.2. Stub/Service部分方法名
 
-> 目前的版本中，因为业务不够复杂，Worker的返回值和Service下层返回值一致
+> 目前的版本中，因为业务不够复杂，Worker的返回值和Service下层返回值一致。
 
 | Worker方法 | Stub/Service方法 | Stub/Service返回值 |
 | :--- | :--- | :--- |
@@ -88,5 +88,5 @@ Api -> ( Event Bus ) -> Worker
 | put | update | Future&lt;JsonObject&gt; |
 | delete | delete | Future&lt;Boolean&gt; |
 
-
+。
 
