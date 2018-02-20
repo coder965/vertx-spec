@@ -8,4 +8,5 @@
 * [2 - Address](1-restful-uri/2-address.md)
   * [SPC11001 - 地址规范](1-restful-uri/2-address/spc11001-eventbusdi-zhi-gui-fan.md)
 * [3 - Java编码规范](3-javabian-ma-gui-fan.md)
+  * [SPC12001 - Zero编程风格](3-javabian-ma-gui-fan/spc12001-zerobian-cheng-feng-ge.md)
 
