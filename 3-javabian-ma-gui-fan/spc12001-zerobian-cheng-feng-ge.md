@@ -81,9 +81,10 @@ Api -> ( Event Bus ) -> Worker
 
 | Worker方法 | Stub/Service方法 | Stub/Service返回值 |
 | :--- | :--- | :--- |
-|  |  |  |
-
-
+| post | create | Future&lt;JsonObject&gt; |
+| get | read | Future&lt;JsonObject&gt; |
+| put | update | Future&lt;JsonObject&gt; |
+| delete | delete | Future&lt;Boolean&gt; |
 
 
 
