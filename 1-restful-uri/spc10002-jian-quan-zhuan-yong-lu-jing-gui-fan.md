@@ -32,5 +32,9 @@
 | /api/user/:id/disable | GET | Path | 禁用账号（超级管理员） |
 | /api/user/:id/enable | GET | Path | 启用账号（超级管理员） |
 
+## 3. 授权部分
+
+
+
 
 
