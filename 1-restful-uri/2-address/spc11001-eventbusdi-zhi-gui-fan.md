@@ -26,7 +26,7 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 ## 3. 代码基本命名
 
-> 本示例以前端地址为例，结合Restful Uri规范处理
+> 本示例以前端地址为例，结合Restful Uri规范处理，模型名称同样使用company
 
 
 
