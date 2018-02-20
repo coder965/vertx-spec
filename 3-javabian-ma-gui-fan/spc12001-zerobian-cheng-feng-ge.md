@@ -53,11 +53,15 @@ Api -> ( Event Bus ) -> Worker
 
 ### 3.1. Actor/Worker部分（Sender/Consumer）
 
-实例中MODEL为`A`，可以是`USER, COMPANY, ROOM` 等。
+实例中MODEL为`A`，可以是`USER, COMPANY, ROOM` 等，`AS`则表示A的复数形式
 
 | Actor/Api方法名 | Addr地址变量 | Event Bus值名 | Worker方法名 |
 | :--- | :--- | :--- | :--- |
 | post | A\_POST | EVENT://ADDR/A/POST | post |
+| get | A\_GET | EVENT://ADDR/A/GET | get |
+| put | A\_PUT | EVENT://ADDR/A/PUT | put |
+| delete | A\_DELETE | EVENT://ADDR/A/DELETE | delete |
+| getAll | AS\_GET | EVENT://ADDR/AS/GET | getAll |
 
 
 
