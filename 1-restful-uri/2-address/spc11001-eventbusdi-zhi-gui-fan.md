@@ -24,5 +24,9 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 对于服务端的专用地址规范，则使用特殊前缀`EVENT://ADDR/OUT`，请求本身由服务端发送结果。
 
+## 3. 代码基本命名
+
+
+
 
 
