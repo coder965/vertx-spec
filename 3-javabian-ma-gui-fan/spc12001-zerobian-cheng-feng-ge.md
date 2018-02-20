@@ -87,7 +87,7 @@ Api -> ( Event Bus ) -> Worker
 | get | read | Future&lt;JsonObject&gt; |
 | put | update | Future&lt;JsonObject&gt; |
 | delete | delete | Future&lt;Boolean&gt; |
-| getAll | read | Future&lt;JsonObject&gt; |
+| getAll | read（可重载） | Future&lt;JsonArray&gt; |
 
 
 
