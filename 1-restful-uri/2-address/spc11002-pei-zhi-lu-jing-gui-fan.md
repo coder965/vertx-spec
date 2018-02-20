@@ -16,7 +16,7 @@
 ```shell
 /zero                    # Etcd对于Zero专用配置路径
     /{app1}              # Etcd对于Application专用配置路径
-    
+        
     /{app2}
 ```
 
