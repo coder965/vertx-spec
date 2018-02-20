@@ -10,7 +10,15 @@
 
 ## 1. Crud地址
 
+基本地址规范使用：`METHOD + URI`的全大写模式，如：
 
+```
+URI: /o/authorize
+Method: POST
+
+对应的EventBus地址为：
+EVENT://ADDR/POST/O/AUTHORIZE
+```
 
 
 
