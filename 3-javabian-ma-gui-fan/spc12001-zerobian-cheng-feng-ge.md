@@ -74,6 +74,8 @@ Api -> ( Event Bus ) -> Worker
 | listIn{Field} | AS\_IN\_{FIELD} | EVENT://ADDR/AS/POST/IN/{FIELD} | listIn{Field} |
 | listIn{Field}Raw | AS\_IN\_{FIELD}\_RAW | EVENT://ADDR/AS/POST/IN/{FIELD}/RAW | listIn{Field}Raw |
 | listAnd | AS\_AND | EVENT://ADDR/AS/POST/AND | listAnd |
+| listAnd{Field} | AS\_AND\_{FIELD} | EVENT://ADDR/AS/GET/AND/{FIELD} | listAnd{Field} |
+| listAndQuery | AS\_AND\_QUERY | EVENT://ADDR/AS/GET/AND/{FIELD1}/{FIELD2} | listAndQuery |
 | listOr | AS\_OR | EVENT://ADDR/AS/POST/OR | listOr |
 | uniqueAnd | A\_AND | EVENT://ADDR/A/POST/AND | uniqueAnd |
 
