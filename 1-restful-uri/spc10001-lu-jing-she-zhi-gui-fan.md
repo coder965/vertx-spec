@@ -79,17 +79,17 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 | 路径前缀 | Http方法 | 参数类型 | 该Api说明 |
 | :--- | :--- | :--- | :--- |
 | /api/search/companies | POST（Post查询） | JsonObject：核心四参数sorter, criteria, projection, pager。 | 用于处理搜索company专用Api，该Api支持：分页、排序、返回过滤、条件查询，返回值格式：{list:\[\],count:0} |
-| /api/existing/company | POST存在判断 | JsonObject：提供可解析的criteria格式字符串 | 判断当前company是否存在，返回true存在，返回false不存在 |
+| /api/search/companies | GET | Query参数 | 不支持分页、排序和返回过滤的搜索，返回值为JsonArray，排序可在后端代码逻辑中实现 |
+| /api/existing/company | POST存在判断 | JsonObject：提供可解析的criteria格式字符串，连接多条件处理 | 判断当前company是否存在，返回true存在，返回false不存在 |
+| /api/existing/company | GET | Query参数 | 判断当前company是否存在，返回true存在，返回false不存在 |
 | /api/companies | GET | 无 | 读取所有的company列表，不带任何条件 |
 | /api/company/:id | GET | Path | 根据ID读取一个company |
 | /api/company/:field/:value | GET | Path | 根据field=value查询唯一的company，单字段查询，返回为JsonObject |
 | /api/companies/:field/:value | GET | Path | 根据company中的某个字段field读取该字段：field=value下的所有company，返回值为JsonArray，单字段查询 |
+| /api/in/companies/:field | POST多值查询 | Path, JsonArray, E = Value List | 从系统中读取field = Value List的所有company列表，返回值为JsonObject，按Value List中的每一个元素进行分组。 |
+| /api/in/companies/:field/raw | POST多值查询 | Path, JsonArray, E = Value List | 从系统中读取field = Value List的所有company列表，返回值为JsonArray，不分组。 |
 
-### 2.4.JsonObject返回API（读）
 
-| 路径前缀 | Http方法 | 参数类型 | 该Api说明 |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
 
 
 
