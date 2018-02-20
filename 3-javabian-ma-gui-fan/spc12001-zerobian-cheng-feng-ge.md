@@ -44,6 +44,17 @@ Api -> ( Event Bus ) -> Worker
 | XXIrApi | Interface | 查询专用Restful Api | Event Loop |
 | XXApi | Interface | Crud专用Restful Api | Event Loop |
 | XXIrActor | Class | 查询专用Actor | Event Loop |
+| XXActor | Class | Crud专用Actor | Event Loop |
+| XXWorker | Class | 查询/Crud专用Worker | Worker Pool |
+| XXStub | Interface | 业务逻辑层接口 | Worker Pool |
+| XXService | Class | 业务逻辑层实现类 | Worker Pool |
+
+## 3. 方法名处理
+
+### 3.1. Actor/Worker部分（Sender/Consumer）
+
+| Actor/Api名称 | Addr地址名 | Event Bus | Worker名称 |
+| :--- | :--- | :--- | :--- |
 |  |  |  |  |
 
 
