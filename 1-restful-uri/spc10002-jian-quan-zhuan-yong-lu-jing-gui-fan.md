@@ -32,9 +32,9 @@
 | /api/user/:id/disable | GET | Path | 禁用账号（超级管理员） |
 | /api/user/:id/enable | GET | Path | 启用账号（超级管理员） |
 
-## 3. 授权部分
+## 3. Summary
 
-
+该部分暂时以已存在的认证为主，缺少授权部分的相关Api规范。
 
 
 
