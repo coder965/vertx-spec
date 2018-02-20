@@ -63,18 +63,19 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 * 单数操作：company
 * 复数操作：companies
 
-### 2.2.CRUD专用API（写）
+### 2.2.CRUD专用API
 
 | 路径前缀 | Http方法 | 参数类型 | 该API说明 |
 | :--- | :--- | :--- | :--- |
 | /api/company | POST | JsonObject | 添加一个完整的company。 |
 | /api/company/:id | PUT | Path, JsonObject | 更新一个company |
 | /api/company/:id | DELETE | Path | 删除一个company |
+| /api/company/:id | GET | Path | 根据ID读取一个company |
 | /api/companies | POST | JsonArray, E = JsonObject | 批量添加company |
 | /api/companies | PUT | JsonArray, E = JsonObject | 批量更新company |
 | /api/companies | DELETE | JsonArray, E = ID List | 批量删除company |
 
-### 2.3.CRUD专用API（读）
+### 2.3.CRUD专用API
 
 | 路径前缀 | Http方法 | 参数类型 | 该Api说明 |
 | :--- | :--- | :--- | :--- |
@@ -88,8 +89,6 @@ CRUD主要用于描述常用的Api操作：`添加、删除、查询、修改、
 | /api/companies/:field/:value | GET | Path | 根据company中的某个字段field读取该字段：field=value下的所有company，返回值为JsonArray，单字段查询 |
 | /api/in/companies/:field | POST多值查询 | Path, JsonArray, E = Value List | 从系统中读取field = Value List的所有company列表，返回值为JsonObject，按Value List中的每一个元素进行分组。 |
 | /api/in/companies/:field/raw | POST多值查询 | Path, JsonArray, E = Value List | 从系统中读取field = Value List的所有company列表，返回值为JsonArray，不分组。 |
-
-
 
 
 
