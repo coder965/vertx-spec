@@ -22,5 +22,5 @@ EVENT://ADDR/POST/O/AUTHORIZE
 
 ## 2. 特殊地址
 
-
+对于服务端的专用地址规范，则考虑使用
 
