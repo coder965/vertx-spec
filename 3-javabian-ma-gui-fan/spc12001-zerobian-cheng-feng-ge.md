@@ -2,7 +2,7 @@
 
 官方地址：[Programming Style](http://www.vertxup.cn/doc/vertx-zero-tutorial/d10044-programming-styles.html), [Interface Style](http://www.vertxup.cn/doc/vertx-zero-tutorial/d10044-recommend-interface-mode-only.html)
 
-### 1. 基本法则
+## 1. 基本法则
 
 Zero编程中摒弃掉原始的`Controller, Service, Dao`的命名风格，直接使用新架构下的新命名风格，方便记忆、管理。
 
@@ -24,12 +24,27 @@ Api -> ( Event Bus ) -> Worker -> Stub -> Service
 Api -> ( Event Bus ) -> Worker
 ```
 
-## 2. Zero中的角色和职责
+### 1.1. 包结构
+
+根包名遵循Java原始的domain法则，如项目：hotel的名称为`htl`，那么根包名使用：`com.htl`。
+
+| 子包名 | 特殊类 | 用途说明 |
+| :--- | :--- | :--- |
+| com.htl.cv | Interface - Addr | 用于管理Event Bus地址接口常量 |
+| com.htl.cv | 无 | 常量文件专用包 |
+| com.htl.exception | 无 | 异常专用包 |
+| com.htl.ipc | XXXJet | （Rpc Server）服务内部通讯专用包，ipc为Internal Rpc的简称，建议该包下的文件数量不宜太多。 |
+| com.htl.domain | 无 | DTO专用包（如果使用Jooq、Hibernate、Mybatis则包含了Dao层类） |
+| com.htl.micro.{name} | 无 | 微服务专用包 |
+
+## 2. micro包中的类命名
 
 | Java命名 | 类型 | 职责说明 | 运行线程 |
 | :--- | :--- | :--- | :--- |
 | XXIrApi | Interface | 查询专用Restful Api | Event Loop |
 | XXApi | Interface | Crud专用Restful Api | Event Loop |
+| XXIrActor | Class | 查询专用Actor | Event Loop |
+|  |  |  |  |
 
 
 
