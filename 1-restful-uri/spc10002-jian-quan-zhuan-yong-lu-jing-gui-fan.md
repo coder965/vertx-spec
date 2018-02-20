@@ -26,6 +26,8 @@
 | :--- | :--- | :--- | :--- |
 | /api/profile | GET | Path | 读取当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
 | /api/profile | POST | JsonObject | 更新当前登录账号的API信息，用户账号在Authorization中提供Token身份令牌处理 |
+| /api/password | POST | JsonObject | 更改当前登录账号密码专用API信息，用户账号在Authorization中提供Token身份令牌处理 |
+| /api/ |  |  |  |
 
 
 
