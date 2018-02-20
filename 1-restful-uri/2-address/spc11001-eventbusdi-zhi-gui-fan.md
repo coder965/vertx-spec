@@ -38,11 +38,17 @@ EVENT://ADDR/POST/O/AUTHORIZE
 | /api/companies（POST） | batchPost | EVENT://ADDR/POST/COMPANIES |
 | /api/companies（PUT） | batchPut | EVENT://ADDR/PUT/COMPANIES |
 | /api/companies（DELETE） | batchDelete | EVENT://ADDR/DELETE/COMPANIES |
-| /api/search/companies（POST） | search | EVENT://ADDR/SEARCH/COMPANIES |
-| /api/search/companies（GET） | searchGet | EVENT://ADDR/SEARCH/COMPANIES/GET |
-| /api/existing/company（POST） | existing | EVENT://ADDR/EXISTING/COMPANY |
-| /api/existing/company（GET） | existingGet | EVENT://ADDR/EXISTING/COMPANY/GET |
-|  |  |  |
+| /api/search/companies（POST） | searchAdvanced | EVENT://ADDR/SEARCH/COMPANIES |
+| /api/search/companies（GET） | search | EVENT://ADDR/SEARCH/COMPANIES/GET |
+| /api/existing/company（POST） | existingAdvanced | EVENT://ADDR/EXISTING/COMPANY |
+| /api/existing/company（GET） | existing | EVENT://ADDR/EXISTING/COMPANY/GET |
+| /api/company/:field/:value（GET） | uniqueByField | EVENT://ADDR/GET/COMPANY/BY/{FIELD} |
+| /api/companies/:field/:value（GET） | listByField | EVENT://ADDR/GET/COMPANIES/BY/{FIELD} |
+| /api/in/companies/:field | listIn | EVENT://ADDR/POST/COMPANIES/IN/{FIELD} |
+| /api/in/companies/:field/raw | listInRaw | EVENT://ADDR/POST/COMPANIES/IN/{FIELD}/RAW |
+| /api/and/companies | uniqueAnd | EVENT://ADDR/POST/COMPANIES/AND |
+| /api/or/companies | uniqueOr | EVENT://ADDR/POST/COMPANIES/OR |
+| /api/and/company | listAnd | EVENT://ADDR/POST/COMPANY/AND |
 
 
 
