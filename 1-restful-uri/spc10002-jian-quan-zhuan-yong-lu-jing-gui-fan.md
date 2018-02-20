@@ -14,6 +14,8 @@
 | /verify/image | GET | Query参数（用户名） | 验证码专用API，以Stream流的模式输出，可构造成验证码图片。 |
 | /verify/mobile | GET | Query参数（手机号） | 手机验证码专用API，发送手机验证码信息，在后端处理。 |
 | /verify/email | GET | Query参数（Email） | Email邮箱专用API，发送Email验证链接，在后端处理。 |
+| /registry | POST | JsonObject | 注册专用API |
+| / |  |  |  |
 
 
 
