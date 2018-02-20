@@ -24,7 +24,7 @@
 
 | 路径前缀 | Http方法 | 参数类型 | API说明 |
 | :--- | :--- | :--- | :--- |
-| /api/profile/:id | POST | Path | 读取当前登录账号的API信息 |
+| /api/profile | POST | Path | 读取当前登录账号的API信息 |
 
 
 
