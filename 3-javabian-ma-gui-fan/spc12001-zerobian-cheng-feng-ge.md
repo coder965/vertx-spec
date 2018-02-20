@@ -65,6 +65,17 @@ Api -> ( Event Bus ) -> Worker
 | batchPost | AS\_POST | EVENT://ADDR/AS/POST | batchPost |
 | batchPut | AS\_PUT | EVENT://ADDR/AS/PUT | batchPut |
 | batchDelete | AS\_DELETE | EVENT://ADDR/AS/DELETE | batchDelete |
+| searchAdvanced | AS\_SEARCH\_ADVANCED | EVENT://ADDR/AS/SEARCH | searchAdvanced |
+| search | AS\_SEARCH | EVENT://ADDR/AS/SEARCH/GET | search |
+| existingAdvanced | A\_EXISTING\_ADVANCED | EVENT://ADDR/A/EXISTING | existingAdvanced |
+| existing | A\_EXISTING | EVENT://ADDR/A/EXISTING/GET | existing |
+| uniqueBy{Field} | A\_GET\_BY\_{FIELD} | EVENT://ADDR/A/GET/BY/{FIELD} | uniqueBy{Field} |
+| listBy{Field} | AS\_GET\_BY\_{FIELD} | EVENT://ADDR/AS/GET/BY/{FIELD} | listBy{Field} |
+| listIn{Field} | AS\_IN\_{FIELD} | EVENT://ADDR/AS/POST/IN/{FIELD} | listIn{Field} |
+| listIn{Field}Raw | AS\_IN\_{FIELD}\_RAW | EVENT://ADDR/AS/POST/IN/{FIELD}/RAW | listIn{Field}Raw |
+| listAnd | AS\_AND | EVENT://ADDR/AS/POST/AND | listAnd |
+| listOr | AS\_OR | EVENT://ADDR/AS/POST/OR | listOr |
+| uniqueAnd | A\_AND | EVENT://ADDR/A/POST/AND | uniqueAnd |
 
 
 
